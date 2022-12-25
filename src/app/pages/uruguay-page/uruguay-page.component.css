@@ -1,0 +1,10 @@
+.country {
+  display: flex;
+  flex-direction: column;
+}
+
+.country img {
+  margin-top: 1em;
+  width: 100%;
+  max-width: 15em;
+}

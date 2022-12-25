@@ -1,0 +1,22 @@
+.section-home {
+  display: grid;
+  grid-template-columns: 14em 1fr;
+}
+
+.item-link {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+}
+.item-link a {
+  padding: 1em;
+  font-size: 1.2em;
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+}
+
+.item-link .active {
+  color: #f00;
+  font-weight: 700;
+}
